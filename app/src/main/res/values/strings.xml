@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">BusVN</string>
+    <string name="api_key">AIzaSyDiZQ4TIPk7tftakAte9N3emS8oH8BKGC8</string>
+
+    <string name="menu_item_setting">Cài đặt</string>
+    <string name="menu_item_search">Tìm kiếm</string>
+    <string name="menu_item_location">Vị trí</string>
+
+    <string name="item_drawer_find">Tìm đường</string>
+    <string name="item_drawer_lookups">Tra cứu</string>
+    <string name="item_drawer_user">Cá nhân</string>
+    <string name="item_drawer_message">Tin nhắn</string>
+    <string name="item_drawer_chat">Trò chuyện</string>
+
+    <!-- TODO: Main-->
+    <string name="main_errordata_bus">Lỗi lấy dữ liệu xe buýt:</string>
+    <string name="main_errordata_stop">Lỗi lấy dữ liệu điểm dừng:</string>
+    <string name="main_errordata_ticket">Lỗi lấy dữ liệu điểm bán vé:</string>
+
+    <!-- TODO: Title Actionbar Tabhot-->
+    <string name="title_fm_ctdd">Thông tin điểm dừng</string>
+    <string name="title_fm_ctdbv">Điểm bán vé</string>
+
+    <string name="title_th_bus">Tuyến buýt</string>
+    <string name="title_th_stop">Điểm dừng</string>
+    <string name="title_th_ticket">Điểm bán vé</string>
+
+    <!-- TODO: Fragment tìm đường-->
+    <string name="edittext_start">Điểm bắt đầu</string>
+    <string name="edittext_end">Điểm kết thúc</string>
+
+    <!-- TODO: Maps -->
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Notification -->
+    <string name="toast_locationchange">Không tìm thấy vị trí hiện tại</string>
+
+    <!-- TODO:  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_find_path">Map</string>
 </resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rv_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:background="@android:color/white"
+    android:elevation="3dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/tvBottomHeader"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center|left"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Lựa chọn"
+        android:textColor="#8a000000"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/lv_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</RelativeLayout>
